@@ -1,17 +1,16 @@
-# practice_weather
+# 🌤️ Flutter Weather App
 
-A new Flutter project.
+A weather application featuring dynamic condition cards, structured metric displays, and custom theme tokens.
 
-## Getting Started
+## 🚀 Key Features
+- **Weather Condition Cards:** Visual display cards presenting temperature, weather state icons, humidity, and wind metrics.
+- **Dynamic Weather Tints:** Background card tints that adapt visually to weather states (e.g., clear skies, rainy, overcast).
+- **Clean Metrics Grid:** Modular summary layout using structured spacing and subtle borders.
 
-This project is a starting point for a Flutter application.
+## 🎨 Design System & Architecture
+- **Text Theme Hierarchy:** Strict use of Material 3 `TextTheme` rules (`titleLarge`, `labelMedium`) for uniform typography scaling.
+- **Reusable Surface Tokens:** Centralized background (`AppColors.background`) and surface token configurations.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack & Concepts Applied
+- **Framework:** Flutter & Dart
+- **Key Concepts:** Async data presentation, component abstraction, custom `ThemeData` configurations
